@@ -1,0 +1,11 @@
+framework module StocksAPI {
+  umbrella header "StocksAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module StocksAPI.Swift {
+    header "StocksAPI-Swift.h"
+    requires objc
+}
