@@ -1,3 +1,2 @@
 *.c linguist-vendored
-*.framework linguist-vendored
 *.h linguist-vendored
